@@ -1,3 +1,5 @@
+QBCore = exports[‘qb-core’]:GetCoreObject()
+
 QBCore.Functions.CreateUseableItem('metaldetector', function(source)
 
     local _source = source
