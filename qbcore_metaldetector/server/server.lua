@@ -19,7 +19,7 @@ AddEventHandler('prospecting:reward', function()
 
     for i = 1, #Config['rewards'] do
 
-        local randomAmount = randomAmount - Config['rewards'][i]['chance']
+        randomAmount = randomAmount - Config['rewards'][i]['chance']
 
         if randomAmount <= 1 then
 
